@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
+  <!-- End Google Tag Manager -->
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>FERPEDIA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <!-- Toko Status -->
+    <div class="store-status" id="storeStatus">
+        Toko sedang tutup
+    </div>
+    
+    <!-- Header Profil Toko -->
+    <div class="store-header">
+        <img src="https://files.catbox.moe/xbz5av.jpg" alt="Profil Toko">
+        <div class="store-info">
+            <h1>WELCOME TO WEBSITE FERPEDIA</h1>
+            <p>Produk Digital</p>
+            <a href="#">Detail Toko &rarr;</a>
+        </div>
+        <i id="theme-icon" class="fas fa-moon theme-toggle" onclick="toggleTheme()"></i>
+    </div>
+    </div>
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Cari Produk di Ferpedia.Digital" onkeyup="searchPackage()">
+      <i class="fa fa-search"></i>
+  </div>
+    <br><hr>
+    
+    <div class="container">
+    <h1>MENU LAYANAN</h1>
+
+      <div class="panel package" data-name="CAPCUT PREMIUM 1 BULAN" data-price="5000" data-description="CAPCUT PREMIUM 1 BULAN">
+        <img src="https://files.catbox.moe/b811bz.jpg" alt="Detail Produk">
+        <p class="price">CAPCUT PRO 1 BULAN</p>
+        <p class="feature"><i class="fas fa-check"></i> SHARING</p>
+        <p class="feature"><i class="fas fa-check"></i> GARANSI 30 HARI</p>
+        <p class="feature"><i class="fas fa-check"></i> TERMURAH</p>
+        <p class="feature"><i class="fas fa-check"></i> BEST SELLER</p>
+        <p class="feature"><i class="fas fa-check"></i> PREMIUM 1 BULAN FULL</p>
+        <button onclick="openModal('modal1')" class="add-to-cart">5.000<i class="fas fa-shopping-cart"></i></button>
+      </div>
+      
+      <div class="panel package" data-name="CAPCUT PREMIUM 3 BULAN" data-price="7000" data-description="CAPCUT PREMIUM 3 BULAN">
+        <img src="https://files.catbox.moe/b811bz.jpg" alt="Detail Produk">
+        <p class="price">CAPCUT PRO 3 BULAN</p>
+        <p class="feature"><i class="fas fa-check"></i> ️SHARING</p>
+        <p class="feature"><i class="fas fa-check"></i> GARANSI 90 HARI</p>
+        <p class="feature"><i class="fas fa-check"></i> PREMIUM 3 BULAN FULL</p>
+        <p class="feature"><i class="fas fa-check"></i> BEST SELLER</p>
+        <p class="feature"><i class="fas fa-check"></i> TERMURAH</p>
+        <button onclick="openModal('modal2')" class="add-to-cart">7.000<i class="fas fa-shopping-cart"></i></button>
+      </div>
+      
+      <div class="panel package" data-name="CAPCUT PREMIUM 6 BULAN" data-price="14000" data-description="CAPCUT PREMIUM 6 BULAN">
+        <img src="https://files.catbox.moe/b811bz.jpg" alt="Detail Produk">
+        <p class="price">CAPCUT PRO 6 BULAN</p>
+        <p class="feature"><i class="fas fa-check"></i> SHARING</p>
+        <p class="feature"><i class="fas fa-check"></i> GARANSI 180 HARI</p>
+        <p class="feature"><i class="fas fa-check"></i> TERMURAH</p>
+        <button onclick="openModal('modal3')" class="add-to-cart">14.000<i class="fas fa-shopping-cart"></i></button>
+      </div>
+      
+      <div class="panel package" data-name="CAPCUT PREMIUM 9 BULAN" data-price="20000" data-description="CAPCUT PREMIUM 9 BULAN">
+        <img src="https://files.catbox.moe/b811bz.jpg" alt="Detail Produk">
+        <p class="price">CAPCUT PRO 9 BULAN</p>
+        <p class="feature"><i class="fas fa-check"></i> SHARING</p>
+        <p class="feature"><i class="fas fa-check"></i> GARANSI 210 HARI</p>
+        <p class="feature"><i class="fas fa-check"></i> BEST SELLER</p>
+        <button onclick="openModal('modal4')" class="add-to-cart">20.000<i class="fas fa-shopping-cart"></i></button>
+      </div>
+      
+       <div class="panel package" data-name="CAPCUT PREMIUM 1 TAHUN" data-price="30000" data-description="CAPCUT PREMIUM 1 TAHUN">
+        <img src="https://files.catbox.moe/b811bz.jpg" alt="Detail Produk">
+        <p class="price">CAPCUT PRO 1 TAHUN</p>
+        <p class="feature"><i class="fas fa-check"></i> SHARING</p>
+        <p class="feature"><i class="fas fa-check"></i> GARANSI 365 HARI</p>
+        <p class="feature"><i class="fas fa-check"></i> TERMURAH</p>
+        <p class="feature"><i class="fas fa-check"></i> BEST SELLER</p>
+        <button onclick="openModal('modal5')" class="add-to-cart">30.000<i class="fas fa-shopping-cart"></i></button>
+      </div>
+        </div>
+      </div>
+  </div>
+  
+  
+<!-- Modal Pop-up Produk 1 -->
+            <div id="modal1" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal1')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/b811bz.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>CAPCUT PRO 1 BULAN</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>SHARING</li>
+            <li>GARANSI 30 HARI</li>
+            <li>PREMIUM 1 BULAN</li>
+            <li>BEST SELER</li>
+          </ul><br>
+          <p class="pricee">ORDER DI SINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('CAPCUT PRO 1 BULAN', 5000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('CAPCUT PRO 1 BULAN', 5000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal2')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/b811bz.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>CAPCUT PRO 3 BULAN</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>SHARING</li>
+            <li>GARANSI 90 HARI FULL</li>
+            <li>TERMURAH</li>
+            <li>BEST SELLER</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('CAPCUT PRO 3 BULAN', 7000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('CAPCUT PRO 3 BULAN', 7000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    
+        <div id="modal3" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal3')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/b811bz.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>CAPCUT PRO 6 BULAN</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>SHARING</li>
+            <li>GARANSI 180 HARI</li>
+            <li>MURAH</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('CAPCUT PRO 6 BULAN', 14000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('CAPCUT PRO 6 BULAN', 14000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal4')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/b811bz.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>CAPCUT PRO 9 BULAN</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>SHARING</li>
+            <li>GARANSI 210 HARI</li>
+            <li>BEST SELLER</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('CAPCUT PRO 9 BULAN', 20000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('CAPCUT PRO 9 BULAN', 20000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal5" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal5')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/b811bz.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>CAPCUT PRO 9 BULAN</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>SHARING</li>
+            <li>GARANSI 365 HARI</li>
+            <li>BEST SELLER</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('CAPCUT PRO 1 TAHUN', 30000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('CAPCUT PRO 1 TAHUN', 30000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+
+          <script src='sc.js'></script>
+</body>
+ </html>
