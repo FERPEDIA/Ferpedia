@@ -121,12 +121,6 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = url;
       }
 
-     function addToCartTl(productName, productPrice) {
-        const telegram = '@ferpediaa';
-        const message = `Halo, saya ingin membeli produk: ${productName} dengan harga Rp${productPrice}. Apakah stok masih tersedia?`;
-        const url = `https://t.me/${telegram}?text=${encodeURIComponent(message)}`;
-        window.location.href = url;
-      }
 
          // Store hours check
       const openHour = 8;
