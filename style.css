@@ -108,7 +108,7 @@ h1 {
     font-size: 1.4em; /* Ukuran font */
     font-weight: bold; /* Ketebalan font */
     text-align: center; /* Rata tengah */
-    background: linear-gradient(45deg, #ADD8E6, #00aaff); /* Gradien */
+    background: linear-gradient(45deg, #ffffff, #000000); /* Gradien */
     -webkit-background-clip: text; /* Memotong latar belakang ke teks */
     -webkit-text-fill-color: transparent; /* Mengisi warna teks dengan transparan */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Bayangan teks */
