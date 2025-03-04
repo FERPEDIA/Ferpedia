@@ -89,7 +89,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin: 20px;
-  border: 3px solid #ADD8E6;
+  border: 3px solid #ffffff;
 }
 
 .store-header img {
@@ -97,8 +97,7 @@ body {
   height: 70px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #ADD8E6;
-  box-shadow: 0px 4px 12px rgba(135, 206, 250, 1), 0px 4px 12px rgba(135, 206, 250, 1);
+  border: 2px solid #ffffff;
 }
 
 .store-info {
@@ -132,7 +131,7 @@ h1 {
 }
 
 .store-info a {
-  color: #00aaff;
+  color: #ffffff;
   text-decoration: none;
   font-size: 0.9em;
   font-weight: bold;
@@ -152,8 +151,7 @@ h1 {
   width: 100%;
   height: 40px;
   padding: 10px 40px 10px 10px;
-  border: 2px solid #ADD8E6;
-  box-shadow: 0px 4px 12px rgba(135, 206, 250, 1), 0px 4px 12px rgba(135, 206, 250, 1);
+  border: 2px solid #ffffff;
   border-radius: 20px;
 }
 
@@ -178,14 +176,13 @@ h1 {
 }
 
 .modal-content {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #ffffff;
   border-radius: 10px;
   padding: 30px;
   max-width: 400px;
   width: 90%;
   position: relative;
-  border: 2px solid #ADD8E6;
-  box-shadow: 0px 4px 12px (199, 21, 133, 0.5), 0px 4px 12px rgba(199, 21, 133, 0.5);
+  border: 2px solid #000000;
 }
 
 .modal-content img {
@@ -194,8 +191,7 @@ h1 {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 10px;
-  border: 2px solid #ADD8E6;
-  box-shadow: 0px 4px 12px red(199, 21, 133, 0.5), 0px 4px 12px rgba(199, 21, 133, 0.5);
+  border: 2px solid #ffffff;
 }
 
 .modal .product-info ul li {
@@ -209,7 +205,7 @@ h1 {
   top: 15px;
   right: 15px;
   font-size: 20px;
-  color: #333;
+  color: #000000;
   cursor: pointer;
 }
 
@@ -217,12 +213,12 @@ h1 {
   font-size: 1.5em;
   text-align: center;
   font-weight: bold;
-  color: #333;
+  color: #000000;
   margin-bottom: 10px;
 }
 
 .modal .product-info p {
-  color: #333;
+  color: #000000;
   margin-bottom: 20px;
   font-size: 1em;
   font-weight: bold;
@@ -231,15 +227,15 @@ h1 {
 .modal .product-info .price {
   font-size: 1.2em;
   font-weight: bold;
-  color: #ADD8E6;
+  color: #ffffff;
   text-align: left;
 }
 
 .modal .add-to-cart {
   display: inline-block;
   padding: 12px 25px;
-  background-color: #ADD8E6;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   border-radius: 25px;
   text-decoration: none;
   font-size: 1em;
@@ -281,8 +277,8 @@ ul {
 
 ul li {
   padding: 5px 0;
-  border-bottom: 2px solid #ADD8E6;
-  color: #e0e0e0;
+  border-bottom: 2px solid #000000;
+  color: #000000;
   font-size: 16px;
   font-weight: bold;
 }
@@ -290,8 +286,8 @@ ul li {
 button {
   display: block;
   width: 100%;
-  background-color: #ADD8E6;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   padding: 12px;
   border: none;
   border-radius: 10px;
@@ -304,11 +300,11 @@ button {
 }
 
 button:hover {
-  background-color: #ADD8E6;
+  background-color: #000000;
   box-shadow: 0px 4px 12px red(199, 21, 133, 0.5), 0px 4px 12px rgba(199, 21, 133, 0.5);
 }
 hr {
-  border: 1px solid #ADD8E6;
+  border: 1px solid #000000;
   box-shadow: 0px 4px 12px red(199, 21, 133, 0.5), 0px 4px 12px rgba(199, 21, 133, 0.5);
 }
 .container {
@@ -316,7 +312,7 @@ hr {
     padding: 20px;
 }
 .container h1 {
-    color: #ccc;
+    color: #000000;
     margin-bottom: 40px;
 }
 .scroll-container {
@@ -325,8 +321,8 @@ hr {
 }
 .panel {
     display: inline-block;
-    background-color: #222;
-    border: 2px solid #ADD8E6;
+    background-color: #000000;
+    border: 2px solid #ffffff;
     border-radius: 10px;
     width: 400px;
     margin: 10px;
@@ -335,7 +331,7 @@ hr {
     vertical-align: top;
 }
 .panel h2 {
-  color: #fff;
+  color: #000000;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -345,8 +341,7 @@ hr {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 10px;
-  border: 2px solid #ADD8E6;
-  box-shadow: 0px 4px 12px red(199, 21, 133, 0.5), 0px 4px 12px rgba(199, 21, 133, 0.5);
+  border: 2px solid #ffffff;
 }
 .panel p {
   color: #fff;
@@ -356,16 +351,16 @@ hr {
 }
 .panel .price {
   font-size: 24px;
-  color: #fff;
+  color: #000000;
   margin: 20px 0;
   text-align: center;
-  background-color: #ADD8E6;
+  background-color: #ffffff;
   border-radius: 10px;
   padding: 5px;
 }
 .panel .buy-btn {
-  background-color: #ADD8E6;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000000;
   border: none;
   padding: 10px 20px;
   font-size: 18px;
@@ -374,10 +369,10 @@ hr {
   text-decoration: none;
 }
 .panel .buy-btn:hover {
-  background-color: #ADD8E6;
+  background-color: #000000;
 }
 .panel .feature {
-  color: #ADD8E6;
+  color: #ffffff;
   font-size: 18px;
   margin: 5px 0;
 }
